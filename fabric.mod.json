@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "carp",
+    "version": "${version}",
+    "name": "Carp",
+    "description": "建筑辅助与运动增强模组 — 自动放置、跳跃补偿、预渲染轮廓、扭头修复、BoatFly、Free Elytra",
+    "authors": ["YourName"],
+    "contact": {
+        "homepage": "https://github.com/example/carp",
+        "sources": "https://github.com/example/carp"
+    },
+    "license": "MIT",
+    "icon": "assets/carp/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [],
+        "client": [
+            "com.example.carp.CarpMod"
+        ],
+        "server": []
+    },
+    "mixins": [
+        "carp.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": ">=26.2",
+        "java": ">=25",
+        "fabric-api": ">=0.153.0",
+        "malilib": ">=0.29.2"
+    },
+    "suggests": {},
+    "custom": {
+        "loom:accessWidener": "carp.accesswidener"
+    }
+}

@@ -1,0 +1,440 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.15.5
+
+> Task :compileJava
+.\gradlew.bat : D:\work\work\src\main\java\baritone\utils\accessor\IPlayerControllerMP.java:22: 错误: 需要'{'
+At line:1 char:120
++ ... ; cd D:\work\work; .\gradlew.bat compileJava --no-daemon 2>&1 | Out-F ...
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\work\work\sr...a:22: 错误: 需要'{':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+public interface fi.dy.masa.malilib.util.inventory.InventoryUtilsMP {
+                   ^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:1: 错误: 非法字符: '\ufeff'
+﻿/*
+^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:18: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+package baritone.utils;
+        ^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:20: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.core.BlockPos;
+^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:21: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.BlockGetter;
+^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:22: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.block.entity.BlockEntity;
+^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:23: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.block.state.BlockState;
+^
+D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:24: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.material.FluidState;
+^
+D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要')'或','
+        return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                        ^
+D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要';'
+        return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                                   ^
+D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要';'
+        return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                                                     ^
+D:\work\work\src\main\java\baritone\utils\schematic\format\defaults\LitematicaSchematic.java:47: 错误: 编码 UTF-8 的不可映射字符 (0xA1)
+     * @param rotated        if the schematic is rotated by 90��.
+                                                              ^
+D:\work\work\src\main\java\baritone\utils\schematic\format\defaults\LitematicaSchematic.java:47: 错误: 编码 UTF-8 的不可映射字符 (0xE3)
+     * @param rotated        if the schematic is rotated by 90��.
+                                                               ^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:1: 错误: 非法字符: '\ufeff'
+﻿/*
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:18: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+package baritone.api.utils;
+        ^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:20: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import baritone.api.utils.accessor.IItemStack;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:21: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import com.google.common.collect.ImmutableMap;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:22: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import com.google.common.collect.ImmutableSet;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:23: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import io.netty.util.concurrent.ThreadPerTaskExecutor;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:24: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.client.Minecraft;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:25: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.core.BlockPos;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:26: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.resources.ResourceKey;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:27: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.resources.ResourceLocation;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:28: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.MinecraftServer;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:29: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.level.ServerLevel;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:30: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.level.progress.ChunkProgressListener;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:31: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.packs.*;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:32: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.packs.repository.ServerPacksSource;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:33: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.packs.resources.MultiPackResourceManager;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:34: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.server.packs.resources.ReloadableResourceManager;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:35: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.util.RandomSource;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:36: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.util.Unit;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:37: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.flag.FeatureFlagSet;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:38: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.item.Item;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:39: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.item.ItemStack;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:40: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.CustomSpawner;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:41: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.Level;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:42: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.block.Block;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:43: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.block.state.BlockState;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:44: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.block.state.properties.Property;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:45: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.dimension.LevelStem;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:46: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.LevelStorageSource;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:47: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.ServerLevelData;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:48: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.BuiltInLootTables;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:49: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.LootContext;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:50: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.LootTables;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:51: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.PredicateManager;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:52: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:53: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:54: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import net.minecraft.world.phys.Vec3;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:55: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import sun.misc.Unsafe;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:57: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.lang.reflect.Field;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:58: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.lang.reflect.Method;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:59: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.ArrayList;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:60: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.Arrays;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:61: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.Collections;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:62: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.HashMap;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:63: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.List;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:64: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.Map;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:65: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.Random;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:66: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.Set;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:67: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.concurrent.CompletableFuture;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:68: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.concurrent.Executor;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:69: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.regex.Matcher;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:70: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.regex.Pattern;
+^
+D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:71: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+import java.util.stream.Collectors;
+^
+D:\work\work\src\api\java\baritone\api\utils\IPlayerController.java:36: 错误: 需要'{'
+public interface fi.dy.masa.malilib.util.inventory.InventoryUtils {
+                   ^
+67 个错误
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///D:/work/work/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要')'或','
+          return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                          ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:18: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  package baritone.utils;
+          ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:20: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.core.BlockPos;
+  ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:21: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.BlockGetter;
+  ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:22: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.block.entity.BlockEntity;
+  ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:23: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.block.state.BlockState;
+  ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:24: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.material.FluidState;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:18: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  package baritone.api.utils;
+          ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:20: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import baritone.api.utils.accessor.IItemStack;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:21: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import com.google.common.collect.ImmutableMap;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:22: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import com.google.common.collect.ImmutableSet;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:23: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import io.netty.util.concurrent.ThreadPerTaskExecutor;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:24: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.client.Minecraft;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:25: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.core.BlockPos;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:26: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.resources.ResourceKey;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:27: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.resources.ResourceLocation;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:28: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.MinecraftServer;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:29: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.level.ServerLevel;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:30: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.level.progress.ChunkProgressListener;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:31: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.packs.*;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:32: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.packs.repository.ServerPacksSource;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:33: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.packs.resources.MultiPackResourceManager;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:34: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.server.packs.resources.ReloadableResourceManager;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:35: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.util.RandomSource;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:36: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.util.Unit;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:37: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.flag.FeatureFlagSet;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:38: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.item.Item;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:39: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.item.ItemStack;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:40: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.CustomSpawner;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:41: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.Level;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:42: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.block.Block;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:43: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.block.state.BlockState;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:44: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.block.state.properties.Property;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:45: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.dimension.LevelStem;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:46: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.LevelStorageSource;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:47: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.ServerLevelData;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:48: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.BuiltInLootTables;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:49: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.LootContext;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:50: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.LootTables;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:51: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.PredicateManager;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:52: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:53: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:54: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import net.minecraft.world.phys.Vec3;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:55: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import sun.misc.Unsafe;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:57: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.lang.reflect.Field;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:58: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.lang.reflect.Method;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:59: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.ArrayList;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:60: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.Arrays;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:61: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.Collections;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:62: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.HashMap;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:63: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.List;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:64: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.Map;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:65: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.Random;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:66: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.Set;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:67: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.concurrent.CompletableFuture;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:68: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.concurrent.Executor;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:69: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.regex.Matcher;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:70: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.regex.Pattern;
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:71: 错误: 需要类、接口、批注类型、枚举、记录、方法或字段
+  import java.util.stream.Collectors;
+  ^
+  D:\work\work\src\main\java\baritone\utils\BlockStateInterfaceAccessWrapper.java:1: 错误: 非法字符: '\ufeff'
+  ﻿/*
+  ^
+  D:\work\work\src\api\java\baritone\api\utils\BlockOptionalMeta.java:1: 错误: 非法字符: '\ufeff'
+  ﻿/*
+  ^
+  D:\work\work\src\main\java\baritone\utils\accessor\IPlayerControllerMP.java:22: 错误: 需要'{'
+  public interface fi.dy.masa.malilib.util.inventory.InventoryUtilsMP {
+                     ^
+  D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要';'
+          return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                                     ^
+  D:\work\work\src\main\java\baritone\utils\GuiClick.java:155: 错误: 需要';'
+          return new Vec3(pos.getRegionX()(), pos.y(), pos.getRegionZ()());
+                                                                       ^
+  D:\work\work\src\api\java\baritone\api\utils\IPlayerController.java:36: 错误: 需要'{'
+  public interface fi.dy.masa.malilib.util.inventory.InventoryUtils {
+                     ^
+  D:\work\work\src\main\java\baritone\utils\schematic\format\defaults\LitematicaSchematic.java:47: 错误: 编码 UTF-8 的不可映射字符 (0xA1)
+       * @param rotated        if the schematic is rotated by 90��.
+                                                                ^
+  D:\work\work\src\main\java\baritone\utils\schematic\format\defaults\LitematicaSchematic.java:47: 错误: 编码 UTF-8 的不可映射字符 (0xE3)
+       * @param rotated        if the schematic is rotated by 90��.
+                                                                 ^
+  67 个错误
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+1 actionable task: 1 executed
+
+BUILD FAILED in 13s

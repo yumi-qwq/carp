@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.example.carp.mixin",
+    "compatibilityLevel": "JAVA_25",
+    "client": [
+        "BoatMixin",
+        "NoSlowMixin",
+        "NoSlowTravelMixin",
+        "LevelRendererMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
