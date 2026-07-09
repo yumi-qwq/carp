@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Fabric-Minecraft-Version: 1.21.8
+Fabric-Loader-Version: 0.15.11
+Fabric-Loom-Mixin-Remap-Type: mixin
+
