@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "carp",
+    "version": "${version}",
+    "name": "Carp",
+    "description": "生电从此进入歪瓜时代",
+    "authors": ["yumi"],
+    "contact": {
+        "homepage": "https://space.bilibili.com/1298380604",
+        "sources": "https://space.bilibili.com/1298380604"
+    },
+    "license": "MIT",
+    "icon": "assets/carp/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [],
+        "client": [
+            "com.example.carp.CarpMod"
+        ],
+        "modmenu": [
+            "com.example.carp.config.CarpModMenuApi"
+        ],
+        "server": []
+    },
+    "mixins": [
+        "carp.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "minecraft": ">=1.21.11",
+        "java": ">=21",
+        "fabric-api": ">=0.141.4",
+        "malilib": ">=0.27.16"
+    },
+    "suggests": {}
+}
