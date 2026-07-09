@@ -1,0 +1,4 @@
+accessWidener v2 official
+
+# 允许访问 Inventory.selected —— AutoPlace 需要切换快捷栏槽位
+accessible field net/minecraft/world/entity/player/Inventory selected I
